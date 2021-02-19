@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "lQYiPeHgKllJnPmnqn8iWy7FslO2HCINMnzoyBY//1tZ8wutpVT75qNhEyhrqi+DfCInv2yR18vU4CrZ60Gtig==",
+  "dgSpecHash": "zyKA19WLpgeCq3HJaeMvHU3z4A5aCprd8KuZ+LPI1YX2tFRGF6v7Mtlr+tSr7fH8yEOvQo2gGBtY1VlxBwcjZw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dutar\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\grpc.core.api\\2.34.0\\grpc.core.api.2.34.0.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\grpc.net.client\\2.34.0\\grpc.net.client.2.34.0.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\grpc.net.common\\2.34.0\\grpc.net.common.2.34.0.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\grpc.tools\\2.35.0\\grpc.tools.2.35.0.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\dutar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
   "logs": []
 }
