@@ -14,13 +14,16 @@ namespace server
         {
             _logger = logger;
         }
-
-        public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
+        public override async Task SayHello(HelloRequest request, IServerStreamWriter<HelloReply> responseStream, ServerCallContext context)
         {
-            return Task.FromResult(new HelloReply
+            for (int i = 0; i < 5; i++)
             {
-                Message = "Hello " + request.Name
-            });
+                await Task.Delay(1000);
+                await responseStream.WriteAsync(new HelloReply
+                {
+                    Message = $"{i} - {request.Name}"
+                });
+            }
         }
     }
 }
