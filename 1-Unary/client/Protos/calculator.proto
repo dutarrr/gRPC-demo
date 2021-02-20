@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "serverCalculate";
+
+package calculate;
+
+service Calculate {
+  rpc Sum (SumRequest) returns (SumResponse);
+}
+
+message SumRequest {
+  int32 S1 = 1;
+  int32 S2 = 2;
+}
+
+message SumResponse {
+  int32 result = 1;
+}
