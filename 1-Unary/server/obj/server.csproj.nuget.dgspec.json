@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj": {}
+    "c:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj": {
+    "c:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj",
+        "projectUniqueName": "c:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj",
+        "projectPath": "c:\\Projects\\gRPC-demo\\1-Unary\\server\\server.csproj",
         "packagesPath": "C:\\Users\\dutar\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\gRPC-demo\\1-Unary\\server\\obj\\",
+        "outputPath": "c:\\Projects\\gRPC-demo\\1-Unary\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dutar\\AppData\\Roaming\\NuGet\\NuGet.Config",

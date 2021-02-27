@@ -14,13 +14,16 @@ namespace server
         {
             _logger = logger;
         }
-
-        public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
+        public override async Task<HelloReply> SayHello(Grpc.Core.IAsyncStreamReader<HelloRequest> requestStream, Grpc.Core.ServerCallContext context)
         {
-            return Task.FromResult(new HelloReply
+            while (await requestStream.MoveNext(context.CancellationToken))
             {
-                Message = "Hello " + request.Name
-            });
+                Console.WriteLine($"Gelen İsim: {requestStream.Current.Name}");
+            }
+            return new HelloReply
+            {
+                Message = "Mesaj alındı gardaş.. :)"
+            };
         }
     }
 }

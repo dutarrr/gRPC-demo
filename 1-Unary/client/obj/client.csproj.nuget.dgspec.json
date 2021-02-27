@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj": {}
+    "c:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj": {
+    "c:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj",
+        "projectUniqueName": "c:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj",
         "projectName": "client",
-        "projectPath": "C:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj",
+        "projectPath": "c:\\Projects\\gRPC-demo\\1-Unary\\client\\client.csproj",
         "packagesPath": "C:\\Users\\dutar\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\gRPC-demo\\1-Unary\\client\\obj\\",
+        "outputPath": "c:\\Projects\\gRPC-demo\\1-Unary\\client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dutar\\AppData\\Roaming\\NuGet\\NuGet.Config",
