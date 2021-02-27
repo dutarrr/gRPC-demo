@@ -20,6 +20,7 @@ namespace server
             {
                 Console.WriteLine($"Gelen İsim: {requestStream.Current.Name}");
             }
+            
             return new HelloReply
             {
                 Message = "Mesaj alındı gardaş.. :)"
